@@ -5,7 +5,6 @@ node {
     }
 
     stage('Build image') {
-        sh chmod +x
         app = docker.build("sambhaji24/docker_jenkins_demo")
     }
 
